@@ -1,23 +1,26 @@
-items = ["apple", "bananna","cherry","date"]
-print(items)
-print(items[1]) # it is indicate the index of the items 
+list = ["bru","sugar","milk","cake"]
+list.clear()  # clear all the element in the list.
+print(list) 
 
-items = ["apple", "bananna","cherry","date"]
-items.pop() # removes the last element.
-print(items)
+list = ["bru","sugar","milk","cake"]
+list[0] = "any coffee power" # changing a specific element in the list.
+print(list) 
 
-items = ["apple", "bananna","cherry","date"]
-items.pop(0) # removes the first element.
-print(items)
+list = ["bru","sugar","milk","cake"]
+print(len(list)) # check the length of the items list
 
-items = ["apple", "bananna","cherry","date"]
-items.append("orange") # adds an element to the list.
-print(items)
 
-items = ["apple", "bananna","cherry","date"]
-items.remove("bananna") # removes the specific element.
-print(items)
+list = [10,50,20,40,30,70,60,80,100,90]
+#print(sorted(list)) # print the list from ascending order 
+list.sort()
+print(list)
 
-items = ["apple", "bananna","cherry","date"]
-items.insert(2, "kiwi") # adds an element at specific index.
-print(items)
+
+
+list = [10,50,20,40,30,70,60,80,100,90]
+sorted_list = sorted(list)
+rev = sorted_list.reverse()
+print(sorted_list) # print the list from descending order 
+
+list = [10,50,20,40,30,70,60,80,100,90]
+print(sum(list)) # return the sum of element in a list
